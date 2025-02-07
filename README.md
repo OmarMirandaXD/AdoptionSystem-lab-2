@@ -109,6 +109,7 @@ JWT_SECRET=<tu_secreto_jwt>
 
 ### Citas
 
+
 - **Crear Cita**
   - **URL:** `/adoptionSystem/v1/appointment/createAppointment`
   - **Método:** `POST`
@@ -119,6 +120,10 @@ JWT_SECRET=<tu_secreto_jwt>
       "pet": "string",
       "user": "string"
     }
+
+- **Listar Citas**
+  - **URL:** `/adoptionSystem//user/idUsuario`
+  - **Método:** `GET`    
     ```
 
 ## Funcionalidades Adicionales
